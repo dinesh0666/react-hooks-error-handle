@@ -30,11 +30,11 @@ export default function App() {
       {!hasError && (
         <section className="App">
           <div>
-            <label>First Value:{" "}</label>
+            <label>Value 1:{" "}</label>
             <input id="numerator" type="text" value={numerator} onChange={updateValue} />
           </div>
           <div>
-            <label>Second Value:{" "}</label>
+            <label>Value 2:{" "}</label>
             <input id="denominator" type="text" value={denominator} onChange={updateValue} />
           </div>
           <div>Output: {executionOutput}</div>
